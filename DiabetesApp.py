@@ -29,7 +29,7 @@ def predict():
     int_features = [int(x) for x in request.form.values()]
     final_features = [np.array(int_features)]
     prediction=model.predict(final_features)
-    print(final_features)
+   
     
     output = prediction[0]
     if(output==1):
