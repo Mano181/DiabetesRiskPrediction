@@ -1,1 +1,1 @@
-web: gunicorn app:DiabetesApp
+web: gunicorn DiabetesApp: app
