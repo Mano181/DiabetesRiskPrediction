@@ -22,7 +22,7 @@ input[type="radio"] {
 
 <body>
 <center>
-<br><br>
+<br>
 <h1 align='center' >Diabetes Risk Prediction</h1>
 <form  action="{{url_for('predict')}}" method="POST">
 <br><br><h3>
@@ -30,7 +30,7 @@ input[type="radio"] {
 <input type="text" name="Age" placeholder="Age" required="required"/><br>
 <br>
 &emsp;&emsp;Gender &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <input type="radio" id="male" name="gender" value=1  required="required"><label for="male" >male</label>
+ <input type="radio" id="male" name="gender" value=1  required="required"><label for="male" >male</label><br>
 <input type="radio" id="female" name="gender" value=0 required="required"><label for="female" ">female</label>
 <br><br>
 &emsp;&emsp;Polyuria &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;
