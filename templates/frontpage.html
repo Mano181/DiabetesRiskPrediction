@@ -14,8 +14,8 @@ body {
    
 }
 button[type="submit"]{
-	height:40;
-	width:80;
+	height:60;
+	width:120;
 }
 input[type="radio"] {
 	height:15px; 
@@ -35,7 +35,7 @@ input[type="radio"] {
 <br>
 &emsp;&emsp;Gender &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  <input type="radio" id="male" name="gender" value=1  required="required"><label for="male" >male</label><br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" id="female" name="gender" value=0 required="required"><label for="female" ">female</label>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" id="female" name="gender" value=0 required="required"><label for="female" ">female</label>
 <br><br>
 &emsp;&emsp;Polyuria &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;
 <input type="radio" id="Yes" name="Polyuria" value=1 required="required"><label for="Polyuria">Yes</label>
@@ -98,6 +98,6 @@ input[type="radio"] {
 
 <b><h1><button type="submit"><b>predict</b></button></h1>
 </form>
-<h3 style="color:red;">&emsp;&emsp;&emsp;{{prediction_text}}<h3>
+<h3 style="color:green;">&emsp;&emsp;&emsp;{{prediction_text}}<h3>
 </body>
 </html>
